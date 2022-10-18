@@ -1,0 +1,6 @@
+data
+log
+
+remoteReloadDB.bat
+remoteReloadTestData.bat
+remoteShell.bat
