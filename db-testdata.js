@@ -21,13 +21,15 @@ db.accounts.insertOne({
 
 db.users.insertOne({
   id: "user1",
-  firstName: "Antoine",
-  lastName: "Maillard",
+  firstName: "Titi",
+  lastName: "Fifi",
+  email: 'titi.fifi@yopmail.com',
 })
 db.users.insertOne({
   id: "user2",
-  firstName: "Christophe",
-  lastName: "Jeannin",
+  firstName: "Toto",
+  lastName: "Roro",
+  email: 'toto.roro@yopmail.com',
 })
 
 // SECTIONS //
