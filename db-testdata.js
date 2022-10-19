@@ -24,12 +24,14 @@ db.users.insertOne({
   firstName: "Titi",
   lastName: "Fifi",
   email: 'titi.fifi@yopmail.com',
+  roles: ['admin']
 })
 db.users.insertOne({
   id: "user2",
   firstName: "Toto",
   lastName: "Roro",
   email: 'toto.roro@yopmail.com',
+  roles: []
 })
 
 // SECTIONS //
