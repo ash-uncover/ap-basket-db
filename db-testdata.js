@@ -68,8 +68,15 @@ db.members.insertOne({
 db.sessions.insertOne({
   "id":"session11",
   "sectionId":"section1",
+  "date": 1666246704449
 })
 db.sessions.insertOne({
   "id":"session12",
   "sectionId":"section1",
+  "date": 1666246504449
+})
+db.sessions.insertOne({
+  "id":"session13",
+  "sectionId":"section1",
+  "date": 1666246904449
 })
