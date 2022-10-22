@@ -128,8 +128,8 @@ db.users.insertOne({
 db.users.insertOne({
   id: "user7",
   firstName: "Caume",
-  lastName: "Gettesaume",
-  email: 'caume.gettesaume@yopmail.com',
+  lastName: "Guettesaume",
+  email: 'caume.guettesaume@yopmail.com',
   roles: []
 })
 db.users.insertOne({
@@ -175,57 +175,79 @@ db.members.insertOne({
   "id":"member1",
   "sectionId":"section1",
   "userId":"user1",
+  "date": 1666246504449,
+  "roles": ["sectionAdmin"]
 })
 db.members.insertOne({
   "id":"member2",
   "sectionId":"section1",
   "userId":"user2",
+  "date": 1666246504449,
+  "roles": ["sectionAdmin"]
 })
 db.members.insertOne({
   "id":"member3",
   "sectionId":"section1",
   "userId":"user3",
+  "date": 1666246504449,
+  "roles": []
 })
 db.members.insertOne({
   "id":"member4",
   "sectionId":"section1",
   "userId":"user4",
+  "date": 1666246504449,
+  "roles": []
 })
 db.members.insertOne({
   "id":"member5",
   "sectionId":"section1",
   "userId":"user5",
+  "date": 1666246504449,
+  "roles": []
 })
 db.members.insertOne({
   "id":"member6",
   "sectionId":"section1",
   "userId":"user6",
+  "date": 1666246504449,
+  "roles": []
 })
 db.members.insertOne({
   "id":"member7",
   "sectionId":"section1",
   "userId":"user7",
+  "date": 1666246504449,
+  "roles": []
 })
 db.members.insertOne({
   "id":"member8",
   "sectionId":"section1",
   "userId":"user8",
+  "date": 1666246504449,
+  "roles": []
 })
 db.members.insertOne({
   "id":"member9",
   "sectionId":"section1",
   "userId":"user9",
+  "date": 1666246504449,
+  "roles": []
 })
 
 db.members.insertOne({
   "id":"member10",
   "sectionId":"section2",
   "userId":"user1",
+  "date": 1666246504449,
+  "roles": []
 })
 db.members.insertOne({
   "id":"member11",
   "sectionId":"section2",
   "userId":"user2",
+  "date": 1666246504449,
+  "roles": ["sectionAdmin"]
 })
 
 // SESSIONS //
@@ -233,26 +255,31 @@ db.members.insertOne({
 db.sessions.insertOne({
   "id":"session1",
   "sectionId":"section1",
+  "maxParticipants": 12,
   "date": 1666246704449
 })
 db.sessions.insertOne({
   "id":"session2",
   "sectionId":"section1",
+  "maxParticipants": 10,
   "date": 1666246504449
 })
 db.sessions.insertOne({
   "id":"session3",
   "sectionId":"section1",
+  "maxParticipants": 12,
   "date": 1666246904449
 })
 db.sessions.insertOne({
   "id":"session4",
   "sectionId":"section1",
+  "maxParticipants": 12,
   "date": 1868246904449
 })
 db.sessions.insertOne({
   "id":"session5",
   "sectionId":"section1",
+  "maxParticipants": 8,
   "date": 1969246904449
 })
 
