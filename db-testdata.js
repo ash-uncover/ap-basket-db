@@ -288,24 +288,28 @@ db.sessions.insertOne({
 db.participants.insertOne({
   "id":"participant1",
   "sessionId":"session5",
-  "userId":"user1"
+  "userId":"user1",
+  "status":"ACCEPTED",
+  "statusDate": 1666246704449
 })
 db.participants.insertOne({
   "id":"participant2",
   "sessionId":"session5",
   "userId":"user2",
   "status":"ACCEPTED",
-  "statusDate": 1666246904449
+  "statusDate": 1666246904449,
 })
 db.participants.insertOne({
   "id":"participant3",
   "sessionId":"session5",
   "userId":"user3",
   "status":"DECLINED",
-  "statusDate": 1666246904449
+  "statusDate": 1666246904449,
 })
 db.participants.insertOne({
   "id":"participant4",
   "sessionId":"session5",
-  "userId":"user5"
+  "userId":"user5",
+  "status":"DECLINED",
+  "statusDate": 1666246704449
 })
