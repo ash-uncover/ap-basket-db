@@ -256,31 +256,36 @@ db.sessions.insertOne({
   "id":"session1",
   "sectionId":"section1",
   "maxParticipants": 12,
-  "date": 1666246704449
+  "date": 1666246704449,
+  "status": "ACTIVE"
 })
 db.sessions.insertOne({
   "id":"session2",
   "sectionId":"section1",
   "maxParticipants": 10,
-  "date": 1666246504449
+  "date": 1666246504449,
+  "status": "CANCELED"
 })
 db.sessions.insertOne({
   "id":"session3",
   "sectionId":"section1",
   "maxParticipants": 12,
-  "date": 1666246904449
+  "date": 1666246904449,
+  "status": "ACTIVE"
 })
 db.sessions.insertOne({
   "id":"session4",
   "sectionId":"section1",
   "maxParticipants": 12,
-  "date": 1868246904449
+  "date": 1868246904449,
+  "status": "ACTIVE"
 })
 db.sessions.insertOne({
   "id":"session5",
   "sectionId":"section1",
   "maxParticipants": 8,
-  "date": 1969246904449
+  "date": 1969246904449,
+  "status": "CANCELED"
 })
 
 // PARTICIPANTS //
