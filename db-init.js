@@ -18,3 +18,8 @@ db.sessions.createIndex({"id": 1}, {"unique": true})
 db.participants.drop()
 db.participants.createIndex({"id": 1}, {"unique": true})
 
+db.places.drop()
+db.places.createIndex({"id": 1}, {"unique": true})
+
+db.news.drop()
+db.news.createIndex({"id": 1}, {"unique": true})

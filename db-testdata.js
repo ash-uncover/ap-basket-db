@@ -159,14 +159,17 @@ db.users.insertOne({
 db.sections.insertOne({
   id: "section1",
   name: "Basket",
+  description: "La section basket c'est vraiment des gens bien",
 })
 db.sections.insertOne({
   id: "section2",
   name: "Babyfoot",
+  description: "Les pauses babyfoot, une alternative agréable au travail",
 })
 db.sections.insertOne({
   id: "section3",
   name: "La Section Vide",
+  description: "Personne ici",
 })
 
 // MEMBERS //
@@ -317,4 +320,48 @@ db.participants.insertOne({
   "userId":"user5",
   "status":"DECLINED",
   "statusDate": 1666246704449
+})
+
+
+// PLACES //
+
+db.places.insertOne({
+  "id":"place1",
+  "name":"Gymnase Marcel Cerdan",
+  "description":"Gymnase de levallois, place du marché",
+  "image":"http://toto.com",
+})
+db.places.insertOne({
+  "id":"place2",
+  "name":"Stade Dider Drogba",
+  "description":"Stade foot foot municipale proche du train",
+  "image":"http://toto.com",
+})
+db.places.insertOne({
+  "id":"place3",
+  "name":"Playground Rive de Seine",
+  "description":"Terrain extérieur en bord de seine",
+  "image":"http://toto.com",
+})
+
+
+// NEWS //
+
+db.places.insertOne({
+  "id":"place1",
+  "name":"Gymnase Marcel Cerdan",
+  "description":"Gymnase de levallois, place du marché",
+  "image":"http://toto.com",
+})
+db.places.insertOne({
+  "id":"place2",
+  "name":"Stade Dider Drogba",
+  "description":"Stade foot foot municipale proche du train",
+  "image":"http://toto.com",
+})
+db.places.insertOne({
+  "id":"place3",
+  "name":"Playground Rive de Seine",
+  "description":"Terrain extérieur en bord de seine",
+  "image":"http://toto.com",
 })
